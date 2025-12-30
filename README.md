@@ -1,7 +1,7 @@
 # Luckie (Discord Bot)
-Luckie is a multi-feature Discord bot designed for server moderation & utility tasks.
-
 Repository for my Discord bot, Luckie. Designed for personal use and experimentation.
+
+Luckie is a multi-feature Discord bot designed for server moderation & utility tasks.
 
 ## 🛠️ Built With
 - `Python 3.13`
