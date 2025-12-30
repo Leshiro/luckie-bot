@@ -1,5 +1,5 @@
 # Luckie (Discord Bot)
-Personal repository for my Discord bot, Luckie; built in Python using discord.py. Designed for personal use and experimentation.
+Personal repository for my Discord bot, Luckie. Built with Python using discord.py. Designed for personal use and experimentation.
 
 Luckie is a multi-feature Discord bot designed for server moderation & utility tasks.
 
