@@ -1,5 +1,5 @@
 # Luckie Bot
-Personal repository for my Discord Bot Luckie, written in discord.py (Python).
+Personal repository for my Discord bot, Luckie. Built with `Python` and `discord.py`. Designed for private use and experimentation.
 
 ## Commands
 - `/guilds` — Lists all servers the bot is in (owner-only)
