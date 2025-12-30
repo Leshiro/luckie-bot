@@ -1,5 +1,5 @@
 # Luckie Bot
-Personal repository for my Discord Bot Luckie, written in Python (discord.py)
+Personal repository for my Discord Bot Luckie, written in Python (discord.py).
 
 ## 🤖 Commands
 - `/guilds` — Lists all servers the bot is in (owner-only)
