@@ -1,4 +1,6 @@
 # Luckie (Discord Bot)
+![discord.py](https://img.shields.io/badge/discord.py-2.6.4-blue?style=flat)
+
 Repository for my Discord bot, Luckie. Designed for personal use and experimentation.
 
 Luckie is a multi-feature Discord bot designed for server moderation & utility tasks.
