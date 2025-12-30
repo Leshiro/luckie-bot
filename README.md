@@ -1,5 +1,5 @@
 # Luckie (Discord Bot)
-![discord.py](https://img.shields.io/badge/discord.py-2.6.4-blue)
+![discord.py](https://img.shields.io/badge/discord-py-2.6.4-blue)
 
 Repository for my Discord bot, Luckie. Designed for personal use and experimentation.
 
