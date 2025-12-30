@@ -5,10 +5,6 @@ Repository for my Discord bot, Luckie. Designed for personal use and experimenta
 
 Luckie is a multi-feature Discord bot designed for server moderation & utility tasks.
 
-## 🛠️ Built With
-- `Python 3.13`
-- `discord.py 2.6.4`
-
 ## Commands
 - `/guilds` — Lists all servers it is in (owner-only)
 - `/server` — Shows server information
@@ -21,3 +17,7 @@ Luckie is a multi-feature Discord bot designed for server moderation & utility t
     - `channel` — channel to delete in (optional, defaults to current channel)
     - `user` — filter by user (optional)
     - `word` — filter by keyword (optional)
+
+## 🛠️ Built With
+- `Python 3.13`
+- `discord.py 2.6.4`
