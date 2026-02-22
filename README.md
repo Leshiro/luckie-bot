@@ -1,4 +1,6 @@
-# Luckie ![Python](https://img.shields.io/badge/Python-3.13-blue) ![discord.py](https://img.shields.io/badge/discord.py-2.6.4-blue?style=flat)
+# Luckie
+
+![python](https://img.shields.io/badge/python-3.13-blue) ![discord.py](https://img.shields.io/badge/discord.py-2.6.4-green)
 
 Luckie is a Discord bot I made for moderation & utility tasks.
 
@@ -16,5 +18,5 @@ Luckie is a Discord bot I made for moderation & utility tasks.
     - `word` — filter by keyword (optional)
 
 ## Built With
-- [Python 3.13](https://www.python.org/)
-- [discord.py 2.6.4](https://github.com/Rapptz/discord.py)
+- [Python](https://www.python.org/)
+- [Discord.py](https://github.com/Rapptz/discord.py)
