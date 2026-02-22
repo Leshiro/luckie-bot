@@ -12,20 +12,16 @@ from datetime import datetime, timezone
 with open('bot_config.json') as config_file:
     data = json.load(config_file)
 TOKEN = data['token']
-prefix = data['prefix']
 ownerid = data['ownerid']    
-game = data['game']
 
 intents = discord.Intents().all()
-bot = commands.Bot(command_prefix=prefix, intents=intents)
+bot = commands.Bot(command_prefix=None, intents=intents)
 
 now = datetime.now(timezone.utc)
 
 #start up 
 @bot.event
 async def on_ready():
-    if game != "":
-        await bot.change_presence(activity=discord.Game(name=game))
     await bot.tree.sync()
     message = f"""
 {bot.user}
