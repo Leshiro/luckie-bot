@@ -15,7 +15,7 @@ TOKEN = data['token']
 ownerid = data['ownerid']    
 
 intents = discord.Intents().all()
-bot = commands.Bot(command_prefix=None, intents=intents)
+bot = commands.Bot(command_prefix="luckie ", intents=intents)
 
 now = datetime.now(timezone.utc)
 
