@@ -4,15 +4,21 @@ from discord.ext import commands
 from discord import app_commands
 
 #other imports
+import os
 import json
 import datetime
 from datetime import datetime, timezone
 
 #bot info
-with open('bot_config.json') as config_file:
-    data = json.load(config_file)
-TOKEN = data['token']
-ownerid = data['ownerid']    
+try:
+    with open('bot_config.json') as config_file:
+        data = json.load(config_file)
+    TOKEN = data['token']
+    ownerid = data['ownerid']
+
+except FileNotFoundError:
+    TOKEN = os.environ.get("DISCORD_TOKEN")
+    ownerid = int(os.environ.get("OWNER_ID"))  
 
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix="luckie ", intents=intents)
